@@ -1,12 +1,13 @@
-import { useState } from 'react'
+import { useState } from 'react';
+import Layout from './pages/layout';
 
 function App() {
 
   return (
-    <div className='bg-white'>
-      
+    <div>
+      <Layout/>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

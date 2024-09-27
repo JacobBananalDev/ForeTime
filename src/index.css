@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+  @apply bg-lightBackground dark:bg-darkBackground text-black dark:text-white overflow-x-hidden overflow-y-hidden duration-150
+}
